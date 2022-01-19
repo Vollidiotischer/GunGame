@@ -1,0 +1,48 @@
+
+player1 - server player
+player2 - client player
+
+startup: 
+	- IP Eingabe
+	- Port Eingabe
+	- Connect Button
+
+-> Loading / Connecting Screen
+
+-> Ready Screen (Wenn beide bereit sind, dann geht es los)
+
+-> Player 1 Zeichnet
+-> player 2 Zeichnet 
+
+-> Game 
+
+
+Features: 
+1: 
+	- Wände: Oben, links, rechts, unten 
+	- Eventuell zerstörbar
+	- Wallriding (an der decke langhangeln) 
+
+
+2: 
+	- Plazierbare Wände 
+	- Jeder Spieler kann eine Bestimmte Fläche an Wänden erstellen 
+	- Wände haben entsprechend ihrer Fläche Leben 
+	- Am Anfang des Games kann jeder Spieler Wände platzieren ohne, dass der andere dies sieht (Position versteckt) 
+
+
+3: 
+	- Spielfigur
+	- Hat bestimmte Anzahl an Leben 
+	- 
+
+
+4:
+	- Waffe
+	- Folgt dem Mauscursor
+	- per click Schießen (Max RPM einbauen)
+	- Die Waffe kann Wände zerstören (mit genug Schüssen) 
+
+
+JUMP:
+	- vielleicht eine bestimmte anz. an Aufladungen (z.B. 3 jumps bevor man wieder den Boden berühren muss)

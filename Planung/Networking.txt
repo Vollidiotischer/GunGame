@@ -1,0 +1,16 @@
+ServerObject & ClientObject (beides C++)
+C++ ServerObject managt alles, ClientObject sendet nur keystrokes
+
+
+Protokoll: 
+Start / End of output: 		{ }
+Start / End of Data List: 	[ ]
+End of this data: 		;
+Data List Seperator:		, 
+
+Server -> Client: 	{[p1X, p1Y] ; p1gunRotation ; [p2X, p2Y] ; p2GunRotation ; nbrOfBullets ; [positionOfBullet] ; nbrOfWalls ; [positionOfWall, sizeOfWall, colorOfWall(in hp)]}
+Server -> Client(CL): 	{; p1X ; p1Y ; p1MX ; p1MY; p2X ; p2Y ; nbrOfBullets ; BulletX ; BulletY ; nbrOfWalls ; WallX ; WallY ; wallW ; wallH ; colorOfWall ;}
+
+Client -> Server: 	{A_pressed ; D_pressed ; S_pressed ; SPACE_pressed ; M1_pressed ; [Mx, My]}
+Button presses in Form von 1 / 0
+
